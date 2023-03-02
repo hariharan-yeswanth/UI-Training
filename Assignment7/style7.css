@@ -1,0 +1,187 @@
+  /* universal stylings */
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  /* style for the body */
+  body {
+    background-color: #000;
+    color: #fff;
+    padding: 0px 10vw;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  /* header section */
+  .heading{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding: 225px 0px 145px;
+    justify-content: center;
+  }
+  .Main-heading {
+    font-weight: 100;
+    font-size: 10vw;
+  }
+  .main-heading span {
+    font-weight: 900;
+  }
+  .second-heading{
+    font-size: 62px;
+    padding: 10px 0px 0px;
+  }
+  .second-heading span {
+    color: #5b8edc;
+  }
+  .mail{
+    position: absolute;
+    top: 70px;
+    font-size: 1.65vw;
+    align-self: flex-end;
+  }
+  /* styling for the image gallery */
+  .image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .imagecontainer {
+    width: 31%;
+    margin: 15px;
+  }
+  .product-image {
+    max-width: 100%;
+  }
+  /* styling for the products section */
+  .brands-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px 0px 0px;
+  }
+  .brands-heading {
+    padding: 60px;
+    font-size: 57.6px;
+  }
+  .brands-focus {
+    color: #c1e792;
+  }
+  .brands-Totalcontainer {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /*Each Logo container*/
+  .brand-container {
+    margin: 20px;
+  }
+  .logo {
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+  }
+  /* styling for the footer section */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px 90px;
+    padding: 10px;
+  }
+  .split-line {
+    margin: 120px 0px 90px;
+  }
+  .sep-line-short {
+    background-color: #fff;
+    display: inline-block;
+    width: 35px;
+    height: 2px;
+  }
+  .sep-line-space {
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+  }
+  .sep-line-long {
+    background-color: #fff;
+    display: inline-block;
+    width: 220px;
+    height: 2px;
+  }
+  /* styling for the social icons */
+  .socialicons-container {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 30px;
+  }
+  .social-icon {
+    width: 2.75vw;
+    border: solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .footer-text {
+    margin: 50px 0px 60px;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  
+  /* media queries for responsive design */
+  @media screen and (max-width: 1600px) {
+    .imagecontainer {
+      width: 40%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .brands-heading {
+      font-size: 4vw;
+    }
+  }
+  @media screen and (max-width: 390px) {
+    .Top-heading {
+      font-size: 15vw;
+    }
+    .second-heading {
+      font-size: 7.5vw;
+      padding: 10px;
+    }
+    .mail {
+      font-size: 4vw;
+      position: static;
+      align-self: inherit;
+    }
+    .imagecontainer {
+      width: 100%;
+      margin: 5px;
+    }
+    .brands-heading {
+      font-size: 8vw;
+      padding: 10px;
+    }
+    .brands-Totalcontainer {
+      padding: 0px;
+    }
+    .brand-container {
+      justify-content: space-between;
+    }
+    .logo {
+      width: 110px;
+    }
+    .split-line {
+      font-size: 2vw;
+    }
+    .social-icon {
+      width: 10vw;
+      background-color: #fff;
+      border-radius: 50%;
+      border: solid #fff;
+      margin: 10px;
+    }
+  
+    .footer-text {
+      font-size: 5vw;
+    }
+  }
