@@ -1,0 +1,72 @@
+/* Universal container*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding:0px;
+  font-family: Roboto, sans-serif;
+}
+/* Header*/
+.Topheader {
+  background-color: rgb(45, 94, 144);
+  text-align: center;
+  color: White;
+  padding:30px;
+  font-size:11px;  
+}
+/* Header of each container*/
+.TotalContainer {
+  width: 85%;
+  margin: 30px auto;
+  padding-left:5px;
+}
+/* left container*/
+.leftseparate {
+  width: 61%;
+  margin-bottom: 80px;
+}
+.rightseparate {
+  width:38.5%;
+}
+/* Separate box*/
+.boxcontainer {
+  margin:10px 10px 21px;
+}
+.box {
+  border: 1px solid rgb(45, 94, 144);
+  box-sizing: content-box;
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* box header box*/
+.boxheading {
+  background-color: rgb(45, 94, 144);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 20px;
+}
+/* box inside*/
+.boxinside {
+  background-color: rgb(246, 246, 246);
+  padding:25px;
+  text-align: justify;
+  line-height: 1.65;
+  font-size: 16px;
+}
+/* right container*/
+.float-left {
+  float: left;
+}
+.adjustmarginright{
+  margin-top:25px;
+}
+
+@media screen and (max-width: 700px) {
+  .leftseparate {
+    width: 100%;
+  }
+  .rightseparate {
+    width: 100%;
+    
+  }
+}
